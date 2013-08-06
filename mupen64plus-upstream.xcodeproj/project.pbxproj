@@ -721,19 +721,19 @@
 		2F281A7A17ACB224004EE8AA /* Video.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Video.cpp; sourceTree = "<group>"; };
 		2F281A7B17ACB224004EE8AA /* Video.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
 		2F281A7C17ACB224004EE8AA /* video_api_export.ver */ = {isa = PBXFileReference; lastKnownFileType = text; path = video_api_export.ver; sourceTree = "<group>"; };
-		2F281A8F17ACB5EC004EE8AA /* librsp-hle.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; name = "librsp-hle.dylib"; path = "/Users/rovolo/Stuff/Programming/Code/MacMupen64/mupen64plus-upstream/-products/Release/librsp-hle.dylib"; sourceTree = "<absolute>"; };
-		2F281AA017ACB64E004EE8AA /* libaudio-sdl.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; name = "libaudio-sdl.dylib"; path = "/Users/rovolo/Stuff/Programming/Code/MacMupen64/mupen64plus-upstream/-products/Release/libaudio-sdl.dylib"; sourceTree = "<absolute>"; };
 		2F281AA817ACB765004EE8AA /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = /Library/Frameworks/SDL.framework; sourceTree = "<absolute>"; };
-		2F281AAE17ACB7F4004EE8AA /* libmupen64plus.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; name = libmupen64plus.dylib; path = "/Users/rovolo/Stuff/Programming/Code/MacMupen64/mupen64plus-upstream/-products/Release/libmupen64plus.dylib"; sourceTree = "<absolute>"; };
 		2F281AF317ACD8F7004EE8AA /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		2F281AF517ACDBFC004EE8AA /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		2F281AF717ACDC4A004EE8AA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		2F281AF917ACDC50004EE8AA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		2F281B1B17ACE9A8004EE8AA /* libvideo-rice.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; name = "libvideo-rice.dylib"; path = "/Users/rovolo/Stuff/Programming/Code/MacMupen64/mupen64plus-upstream/-products/Release/libvideo-rice.dylib"; sourceTree = "<absolute>"; };
 		2F281B5717B0AFA3004EE8AA /* libmupen64plus.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = libmupen64plus.dylib; path = "-products/lib/libmupen64plus.dylib"; sourceTree = SOURCE_ROOT; };
 		2F281B5817B0AFBB004EE8AA /* mupen64plus-audio-sdl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = "mupen64plus-audio-sdl.dylib"; path = "-products/lib/mupen64plus/mupen64plus-audio-sdl.dylib"; sourceTree = "<group>"; };
 		2F281B5917B0AFBB004EE8AA /* mupen64plus-rsp-hle.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = "mupen64plus-rsp-hle.dylib"; path = "-products/lib/mupen64plus/mupen64plus-rsp-hle.dylib"; sourceTree = "<group>"; };
 		2F281B5A17B0AFBB004EE8AA /* mupen64plus-video-rice.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = "mupen64plus-video-rice.dylib"; path = "-products/lib/mupen64plus/mupen64plus-video-rice.dylib"; sourceTree = "<group>"; };
+		2FF8AD8417B0CFA30060F0E9 /* librsp-hle.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; name = "librsp-hle.dylib"; path = "/Users/rovolo/Stuff/Programming/Code/MacMupen64/mupen64plus-upstream/-products/Release/librsp-hle.dylib"; sourceTree = "<absolute>"; };
+		2FF8AD8517B0CFA30060F0E9 /* libaudio-sdl.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; name = "libaudio-sdl.dylib"; path = "/Users/rovolo/Stuff/Programming/Code/MacMupen64/mupen64plus-upstream/-products/Release/libaudio-sdl.dylib"; sourceTree = "<absolute>"; };
+		2FF8AD8617B0CFA30060F0E9 /* libmupen64plus.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; name = libmupen64plus.dylib; path = "/Users/rovolo/Stuff/Programming/Code/MacMupen64/mupen64plus-upstream/-products/Release/libmupen64plus.dylib"; sourceTree = "<absolute>"; };
+		2FF8AD8717B0CFA30060F0E9 /* libvideo-rice.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; name = "libvideo-rice.dylib"; path = "/Users/rovolo/Stuff/Programming/Code/MacMupen64/mupen64plus-upstream/-products/Release/libvideo-rice.dylib"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1844,7 +1844,7 @@
 			);
 			name = "rsp-hle";
 			productName = "rsp-hle";
-			productReference = 2F281A8F17ACB5EC004EE8AA /* librsp-hle.dylib */;
+			productReference = 2FF8AD8417B0CFA30060F0E9 /* librsp-hle.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 		2F281A9F17ACB64E004EE8AA /* audio-sdl */ = {
@@ -1861,7 +1861,7 @@
 			);
 			name = "audio-sdl";
 			productName = "audio-sdl";
-			productReference = 2F281AA017ACB64E004EE8AA /* libaudio-sdl.dylib */;
+			productReference = 2FF8AD8517B0CFA30060F0E9 /* libaudio-sdl.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 		2F281AAD17ACB7F4004EE8AA /* mupen64plus */ = {
@@ -1878,7 +1878,7 @@
 			);
 			name = mupen64plus;
 			productName = mupen64plus;
-			productReference = 2F281AAE17ACB7F4004EE8AA /* libmupen64plus.dylib */;
+			productReference = 2FF8AD8617B0CFA30060F0E9 /* libmupen64plus.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 		2F281B1A17ACE9A8004EE8AA /* video-rice */ = {
@@ -1895,7 +1895,7 @@
 			);
 			name = "video-rice";
 			productName = "video-rice";
-			productReference = 2F281B1B17ACE9A8004EE8AA /* libvideo-rice.dylib */;
+			productReference = 2FF8AD8717B0CFA30060F0E9 /* libvideo-rice.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
@@ -2361,6 +2361,7 @@
 				2F281A9317ACB5EC004EE8AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F281AA117ACB64E004EE8AA /* Build configuration list for PBXNativeTarget "audio-sdl" */ = {
 			isa = XCConfigurationList;
@@ -2369,6 +2370,7 @@
 				2F281AA317ACB64E004EE8AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F281AAF17ACB7F4004EE8AA /* Build configuration list for PBXNativeTarget "mupen64plus" */ = {
 			isa = XCConfigurationList;
@@ -2377,6 +2379,7 @@
 				2F281AB117ACB7F4004EE8AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F281B0217ACE840004EE8AA /* Build configuration list for PBXAggregateTarget "mupen64plus-upstream" */ = {
 			isa = XCConfigurationList;
@@ -2385,6 +2388,7 @@
 				2F281B0417ACE840004EE8AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F281B1C17ACE9A8004EE8AA /* Build configuration list for PBXNativeTarget "video-rice" */ = {
 			isa = XCConfigurationList;
@@ -2393,6 +2397,7 @@
 				2F281B1E17ACE9A8004EE8AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F281B5417B0A908004EE8AA /* Build configuration list for PBXLegacyTarget "Upstream" */ = {
 			isa = XCConfigurationList;
@@ -2401,6 +2406,7 @@
 				2F281B5617B0A908004EE8AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
