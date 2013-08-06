@@ -142,6 +142,8 @@ ifeq ($(OS), OSX)
       LDFLAGS += -bundle
     endif
   endif
+
+  GL_CFLAGS = -framework OpenGL
   GL_LDLIBS = -framework OpenGL
 else
   # search for OpenGL libraries
