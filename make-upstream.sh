@@ -8,11 +8,15 @@
 
 export PATH=$PATH:/opt/local/bin/
 
+INSTALL_OPTIONS="DEBUG=1 APIDIR=$SRCROOT/core/src/api PREFIX=$SRCROOT/-products"
+
 for proj in 'rsp-hle' 'audio-sdl' 'video-rice' 'video-arachnoid' 'core' 'rsp-hle'; do
-	echo "Building $proj"
 	cd $proj/projects/unix
-	pwd
-	make install DEBUG=1 APIDIR=$SRCROOT/core/src/api PREFIX=$SRCROOT/-products
-	rm -rf _obj *.dylib
+	if [ "$ACTION" == "clean" ]; then
+		make clean $INSTALL_OPTIONS
+	else # build
+		echo "Building $proj"
+		make install $INSTALL_OPTIONS
+	fi
 	cd $SRCROOT
 done

@@ -1,1 +1,3 @@
 -products
+_obj
+*.dylib
