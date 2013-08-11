@@ -375,7 +375,8 @@ SOURCE += \
 	$(SRCDIR)/GlideHQ/tc-1.1+/texstore.c
 
 CPPFLAGS += -DTEXTURE_FILTER # -DDUMP_CACHE
-LDLIBS += -lboost_filesystem$(BOOST_SUFFIX) -lboost_system$(BOOST_SUFFIX)
+# use the prebuilt boost libs
+LDLIBS += ../../../../resources/libs/libboost_filesystem-mt.dylib ../../../../resources/libs/libboost_system-mt.dylib
 endif
 
 ifeq ($(OS),MINGW)

@@ -562,6 +562,7 @@
 		2F281B5817B0AFBB004EE8AA /* mupen64plus-audio-sdl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = "mupen64plus-audio-sdl.dylib"; path = "-products/lib/mupen64plus/mupen64plus-audio-sdl.dylib"; sourceTree = "<group>"; };
 		2F281B5917B0AFBB004EE8AA /* mupen64plus-rsp-hle.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = "mupen64plus-rsp-hle.dylib"; path = "-products/lib/mupen64plus/mupen64plus-rsp-hle.dylib"; sourceTree = "<group>"; };
 		2F281B5A17B0AFBB004EE8AA /* mupen64plus-video-rice.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = "mupen64plus-video-rice.dylib"; path = "-products/lib/mupen64plus/mupen64plus-video-rice.dylib"; sourceTree = "<group>"; };
+		2F8FD00017B60C4400400C0B /* mupen64plus-video-arachnoid.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = "mupen64plus-video-arachnoid.dylib"; path = "-products/lib/mupen64plus/mupen64plus-video-arachnoid.dylib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -573,6 +574,7 @@
 				2F2818B517ACB224004EE8AA /* glide64 */,
 				2F281B5217B0A7DD004EE8AA /* Linked Frameworks */,
 				2F281B5B17B0AFC3004EE8AA /* Products */,
+				2F8FD00017B60C4400400C0B /* mupen64plus-video-arachnoid.dylib */,
 			);
 			sourceTree = "<group>";
 		};
