@@ -174,17 +174,6 @@
 		2F2818B217ACB224004EE8AA /* osal_dynamiclib_win32.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = osal_dynamiclib_win32.c; sourceTree = "<group>"; };
 		2F2818B317ACB224004EE8AA /* volume.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = volume.c; sourceTree = "<group>"; };
 		2F2818B417ACB224004EE8AA /* volume.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = volume.h; sourceTree = "<group>"; };
-		2F2818B717ACB224004EE8AA /* .hgignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .hgignore; sourceTree = "<group>"; };
-		2F2818B817ACB224004EE8AA /* .hgtags */ = {isa = PBXFileReference; lastKnownFileType = text; path = .hgtags; sourceTree = "<group>"; };
-		2F2818BA17ACB224004EE8AA /* Glide64mk2.ini */ = {isa = PBXFileReference; lastKnownFileType = text; path = Glide64mk2.ini; sourceTree = "<group>"; };
-		2F2818BC17ACB224004EE8AA /* fxt1-license */ = {isa = PBXFileReference; lastKnownFileType = text; path = "fxt1-license"; sourceTree = "<group>"; };
-		2F2818BD17ACB224004EE8AA /* gpl-license */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gpl-license"; sourceTree = "<group>"; };
-		2F2818BE17ACB224004EE8AA /* INSTALL */ = {isa = PBXFileReference; lastKnownFileType = text; path = INSTALL; sourceTree = "<group>"; };
-		2F2818BF17ACB224004EE8AA /* LICENSES */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSES; sourceTree = "<group>"; };
-		2F2818C217ACB224004EE8AA /* mupen64plus-video-glide64mk2.vcxproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "mupen64plus-video-glide64mk2.vcxproj"; sourceTree = "<group>"; };
-		2F2818C317ACB224004EE8AA /* mupen64plus-video-glide64mk2.vcxproj.filters */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "mupen64plus-video-glide64mk2.vcxproj.filters"; sourceTree = "<group>"; };
-		2F2818C517ACB224004EE8AA /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		2F2818C617ACB224004EE8AA /* RELEASE */ = {isa = PBXFileReference; lastKnownFileType = text; path = RELEASE; sourceTree = "<group>"; };
 		2F2818C917ACB224004EE8AA /* 3dmath.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 3dmath.cpp; sourceTree = "<group>"; };
 		2F2818CA17ACB224004EE8AA /* 3dmath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 3dmath.h; sourceTree = "<group>"; };
 		2F2818CB17ACB224004EE8AA /* Combine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Combine.cpp; sourceTree = "<group>"; };
@@ -302,7 +291,6 @@
 		2F28194017ACB224004EE8AA /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
 		2F28194117ACB224004EE8AA /* textures.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = textures.cpp; sourceTree = "<group>"; };
 		2F28194217ACB224004EE8AA /* video_api_export.ver */ = {isa = PBXFileReference; lastKnownFileType = text; path = video_api_export.ver; sourceTree = "<group>"; };
-		2F28194317ACB224004EE8AA /* todo!.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "todo!.txt"; sourceTree = "<group>"; };
 		2F28195417ACB224004EE8AA /* alist.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = alist.c; sourceTree = "<group>"; };
 		2F28195517ACB224004EE8AA /* alist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = alist.h; sourceTree = "<group>"; };
 		2F28195617ACB224004EE8AA /* alist_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = alist_internal.h; sourceTree = "<group>"; };
@@ -571,7 +559,6 @@
 			children = (
 				2F28189D17ACA6A3004EE8AA /* make-upstream.sh */,
 				2F281B4B17B01580004EE8AA /* Plugins */,
-				2F2818B517ACB224004EE8AA /* glide64 */,
 				2F281B5217B0A7DD004EE8AA /* Linked Frameworks */,
 				2F281B5B17B0AFC3004EE8AA /* Products */,
 				2F8FD00017B60C4400400C0B /* mupen64plus-video-arachnoid.dylib */,
@@ -857,75 +844,7 @@
 			path = "audio-sdl/src";
 			sourceTree = "<group>";
 		};
-		2F2818B517ACB224004EE8AA /* glide64 */ = {
-			isa = PBXGroup;
-			children = (
-				2F2818B617ACB224004EE8AA /* .hgcheck */,
-				2F2818B717ACB224004EE8AA /* .hgignore */,
-				2F2818B817ACB224004EE8AA /* .hgtags */,
-				2F2818B917ACB224004EE8AA /* data */,
-				2F2818BB17ACB224004EE8AA /* doc */,
-				2F2818BE17ACB224004EE8AA /* INSTALL */,
-				2F2818BF17ACB224004EE8AA /* LICENSES */,
-				2F2818C017ACB224004EE8AA /* projects */,
-				2F2818C617ACB224004EE8AA /* RELEASE */,
-				2F2818C717ACB224004EE8AA /* src */,
-				2F28194317ACB224004EE8AA /* todo!.txt */,
-			);
-			path = glide64;
-			sourceTree = SOURCE_ROOT;
-		};
-		2F2818B617ACB224004EE8AA /* .hgcheck */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = .hgcheck;
-			sourceTree = "<group>";
-		};
-		2F2818B917ACB224004EE8AA /* data */ = {
-			isa = PBXGroup;
-			children = (
-				2F2818BA17ACB224004EE8AA /* Glide64mk2.ini */,
-			);
-			path = data;
-			sourceTree = "<group>";
-		};
-		2F2818BB17ACB224004EE8AA /* doc */ = {
-			isa = PBXGroup;
-			children = (
-				2F2818BC17ACB224004EE8AA /* fxt1-license */,
-				2F2818BD17ACB224004EE8AA /* gpl-license */,
-			);
-			path = doc;
-			sourceTree = "<group>";
-		};
-		2F2818C017ACB224004EE8AA /* projects */ = {
-			isa = PBXGroup;
-			children = (
-				2F2818C117ACB224004EE8AA /* msvc11 */,
-				2F2818C417ACB224004EE8AA /* unix */,
-			);
-			path = projects;
-			sourceTree = "<group>";
-		};
-		2F2818C117ACB224004EE8AA /* msvc11 */ = {
-			isa = PBXGroup;
-			children = (
-				2F2818C217ACB224004EE8AA /* mupen64plus-video-glide64mk2.vcxproj */,
-				2F2818C317ACB224004EE8AA /* mupen64plus-video-glide64mk2.vcxproj.filters */,
-			);
-			path = msvc11;
-			sourceTree = "<group>";
-		};
-		2F2818C417ACB224004EE8AA /* unix */ = {
-			isa = PBXGroup;
-			children = (
-				2F2818C517ACB224004EE8AA /* Makefile */,
-			);
-			path = unix;
-			sourceTree = "<group>";
-		};
-		2F2818C717ACB224004EE8AA /* src */ = {
+		2F2818C717ACB224004EE8AA /* video-glide64 */ = {
 			isa = PBXGroup;
 			children = (
 				2F2818C817ACB224004EE8AA /* Glide64 */,
@@ -933,7 +852,8 @@
 				2F28193417ACB224004EE8AA /* Glitch64 */,
 				2F28194217ACB224004EE8AA /* video_api_export.ver */,
 			);
-			path = src;
+			name = "video-glide64";
+			path = "video-glide64/src";
 			sourceTree = "<group>";
 		};
 		2F2818C817ACB224004EE8AA /* Glide64 */ = {
@@ -1494,6 +1414,7 @@
 		2F281B4B17B01580004EE8AA /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				2F2818C717ACB224004EE8AA /* video-glide64 */,
 				2F28196E17ACB224004EE8AA /* video-arachnoid */,
 				2F28195317ACB224004EE8AA /* rsp-hle */,
 				2F2818AD17ACB224004EE8AA /* audio-sdl */,
