@@ -944,6 +944,11 @@ int savestates_load(void)
     return ret;
 }
 
+static void notifySavestateSaved(char * filepath) {
+    main_message(M64MSG_STATUS, OSD_BOTTOM_LEFT, "Saved state to: %s", namefrompath(filepath));
+	StateChanged(M64CORE_STATE_SAVECOMPLETE, 1);
+}
+
 static void savestates_save_m64p_work(struct work_struct *work)
 {
     gzFile f;
@@ -970,7 +975,7 @@ static void savestates_save_m64p_work(struct work_struct *work)
     }
 
     gzclose(f);
-    main_message(M64MSG_STATUS, OSD_BOTTOM_LEFT, "Saved state to: %s", namefrompath(save->filepath));
+	notifySavestateSaved(save->filepath);
     free(save->data);
     free(save->filepath);
     free(save);
@@ -1442,8 +1447,8 @@ static int savestates_save_pj64_zip(char *filepath)
 
     if (!savestates_save_pj64(filepath, zipfile, write_data_to_zip))
         goto clean_and_exit;
-
-    main_message(M64MSG_STATUS, OSD_BOTTOM_LEFT, "Saved state to: %s", namefrompath(filepath));
+	
+	notifySavestateSaved(filepath);
 
     clean_and_exit:
         if (zipfile != NULL)
@@ -1475,8 +1480,9 @@ static int savestates_save_pj64_unc(char *filepath)
         fclose(f);
         return 0;
     }
+	
+	notifySavestateSaved(filepath);
 
-    main_message(M64MSG_STATUS, OSD_BOTTOM_LEFT, "Saved state to: %s", namefrompath(filepath));
     fclose(f);
     return 1;
 }
@@ -1512,7 +1518,8 @@ int savestates_save(void)
     }
 
     // deliver callback to indicate completion of state saving operation
-    StateChanged(M64CORE_STATE_SAVECOMPLETE, ret);
+    if(!ret) // Success notification done when the file has completed saving
+		StateChanged(M64CORE_STATE_SAVECOMPLETE, 0);
 
     savestates_clear_job();
     return ret;
