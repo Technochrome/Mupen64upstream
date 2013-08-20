@@ -551,6 +551,24 @@
 		2F281B5917B0AFBB004EE8AA /* mupen64plus-rsp-hle.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = "mupen64plus-rsp-hle.dylib"; path = "-products/lib/mupen64plus/mupen64plus-rsp-hle.dylib"; sourceTree = "<group>"; };
 		2F281B5A17B0AFBB004EE8AA /* mupen64plus-video-rice.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = "mupen64plus-video-rice.dylib"; path = "-products/lib/mupen64plus/mupen64plus-video-rice.dylib"; sourceTree = "<group>"; };
 		2F8FD00017B60C4400400C0B /* mupen64plus-video-arachnoid.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = "mupen64plus-video-arachnoid.dylib"; path = "-products/lib/mupen64plus/mupen64plus-video-arachnoid.dylib"; sourceTree = "<group>"; };
+		2F9F7F9917C2E93700BD5D9D /* cheat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cheat.c; sourceTree = "<group>"; };
+		2F9F7F9A17C2E93700BD5D9D /* cheat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cheat.h; sourceTree = "<group>"; };
+		2F9F7F9B17C2E93700BD5D9D /* compare_core.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = compare_core.c; sourceTree = "<group>"; };
+		2F9F7F9C17C2E93700BD5D9D /* compare_core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = compare_core.h; sourceTree = "<group>"; };
+		2F9F7F9D17C2E93700BD5D9D /* core_interface.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = core_interface.c; sourceTree = "<group>"; };
+		2F9F7F9E17C2E93700BD5D9D /* core_interface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = core_interface.h; sourceTree = "<group>"; };
+		2F9F7F9F17C2E93700BD5D9D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		2F9F7FA017C2E93700BD5D9D /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		2F9F7FA117C2E93700BD5D9D /* osal_dynamiclib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = osal_dynamiclib.h; sourceTree = "<group>"; };
+		2F9F7FA217C2E93700BD5D9D /* osal_dynamiclib_unix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = osal_dynamiclib_unix.c; sourceTree = "<group>"; };
+		2F9F7FA317C2E93700BD5D9D /* osal_dynamiclib_win32.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = osal_dynamiclib_win32.c; sourceTree = "<group>"; };
+		2F9F7FA417C2E93700BD5D9D /* osal_files.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = osal_files.h; sourceTree = "<group>"; };
+		2F9F7FA517C2E93700BD5D9D /* osal_files_unix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = osal_files_unix.c; sourceTree = "<group>"; };
+		2F9F7FA617C2E93700BD5D9D /* osal_files_win32.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = osal_files_win32.c; sourceTree = "<group>"; };
+		2F9F7FA717C2E93700BD5D9D /* osal_preproc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = osal_preproc.h; sourceTree = "<group>"; };
+		2F9F7FA817C2E93700BD5D9D /* plugin.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = plugin.c; sourceTree = "<group>"; };
+		2F9F7FA917C2E93700BD5D9D /* plugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = plugin.h; sourceTree = "<group>"; };
+		2F9F7FAA17C2E93700BD5D9D /* version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -1414,6 +1432,7 @@
 		2F281B4B17B01580004EE8AA /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				2F9F7F9817C2E93700BD5D9D /* ui-console */,
 				2F2818C717ACB224004EE8AA /* video-glide64 */,
 				2F28196E17ACB224004EE8AA /* video-arachnoid */,
 				2F28195317ACB224004EE8AA /* rsp-hle */,
@@ -1445,6 +1464,32 @@
 				2F281B5A17B0AFBB004EE8AA /* mupen64plus-video-rice.dylib */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		2F9F7F9817C2E93700BD5D9D /* ui-console */ = {
+			isa = PBXGroup;
+			children = (
+				2F9F7F9917C2E93700BD5D9D /* cheat.c */,
+				2F9F7F9A17C2E93700BD5D9D /* cheat.h */,
+				2F9F7F9B17C2E93700BD5D9D /* compare_core.c */,
+				2F9F7F9C17C2E93700BD5D9D /* compare_core.h */,
+				2F9F7F9D17C2E93700BD5D9D /* core_interface.c */,
+				2F9F7F9E17C2E93700BD5D9D /* core_interface.h */,
+				2F9F7F9F17C2E93700BD5D9D /* main.c */,
+				2F9F7FA017C2E93700BD5D9D /* main.h */,
+				2F9F7FA117C2E93700BD5D9D /* osal_dynamiclib.h */,
+				2F9F7FA217C2E93700BD5D9D /* osal_dynamiclib_unix.c */,
+				2F9F7FA317C2E93700BD5D9D /* osal_dynamiclib_win32.c */,
+				2F9F7FA417C2E93700BD5D9D /* osal_files.h */,
+				2F9F7FA517C2E93700BD5D9D /* osal_files_unix.c */,
+				2F9F7FA617C2E93700BD5D9D /* osal_files_win32.c */,
+				2F9F7FA717C2E93700BD5D9D /* osal_preproc.h */,
+				2F9F7FA817C2E93700BD5D9D /* plugin.c */,
+				2F9F7FA917C2E93700BD5D9D /* plugin.h */,
+				2F9F7FAA17C2E93700BD5D9D /* version.h */,
+			);
+			name = "ui-console";
+			path = "ui-console/src";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
